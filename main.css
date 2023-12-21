@@ -1,0 +1,326 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url(img/bg.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+}
+
+.all {
+
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  margin-top: 30px;
+  position: relative;
+}
+
+.header img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.line {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: white;
+  opacity: 0.5;
+}
+
+.linebottommenu{
+  margin-bottom: 0;
+  margin-top: 30px;
+}
+
+ul {
+  list-style: none;
+}
+
+.menu {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  display: flex;
+  text-decoration: none;
+}
+
+.menu li a {
+  color: white;
+  text-decoration: none;
+}
+
+.menu li {
+  display: flex;
+  align-items: center;
+}
+
+.inst1,
+.inst2 {
+  display: flex;
+}
+
+.inst1 img {
+  margin-right: 20px;
+  width: 30px;
+  height: 30px;
+}
+
+.inst2 img {
+  margin-left: 20px;
+  width: 30px;
+  height: 30px;
+}
+
+.inst1 a,
+.inst2 a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+
+.ffeeeyaaa img,
+.saharok img {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-width: 600px;
+}
+
+.footer{
+  background-color: rgba(0, 0, 0, 0.50);
+  display: flex;
+  width: 100%;
+  max-width: 100%;
+  text-align: center;
+  height: 23%;
+  
+}
+
+.info{
+  display: inline-block; /* Делаем блок строчно-блочным для установки ширины */
+  width: 80%; /* Ширина внутреннего блока */
+  text-align: left;
+  
+}
+
+.info p{
+  font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+  background: var(--gradik, linear-gradient(31deg, #FB8484 17.71%, #E6BCFF 32.89%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.logo1{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.logo2{
+  margin-right: 10%;
+  margin-left: auto;
+  margin-bottom: auto;
+  margin-top: 1%;
+}
+
+.logo1 img,.logo2 img{
+  height: 100%;
+}
+
+.info ul{
+color: #FFF;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+
+text-transform: capitalize;
+}
+
+.info {
+  text-align: center;
+}
+
+.info p {
+  font-weight: bold;
+  font-size: 24px;
+  margin-top: 3%;
+}
+
+.info ul {
+  list-style-type: none;
+  margin-top: 2%;
+}
+
+.info li{
+  margin-bottom: 1%;
+}
+
+@media screen and (max-width: 980px){
+  .logo1,.logo2{
+    margin-right: 7%;
+    height: 85%;
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 850px){
+  .logo1,.logo2{
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 75%;
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .line {
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  
+
+  .logo1,.logo2{
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 70%;
+    width: 70%;
+  }
+
+  .footer{
+    height: 20%;
+  }
+
+  .info p{
+    font-size: 15px;
+  }
+
+  .info ul{
+    font-size: 16px;
+  }
+
+  .inst1 img, .inst2 img{
+    height: 70%;
+    width: 70%;
+  }
+
+  .inst1 img{
+    margin-right: 1px;
+  }
+
+  .inst2 img{
+    margin-left: 1px;
+  }
+
+  .menu{
+    font-size: 17px;
+  }
+
+  @media screen and (max-width: 678px){
+    .menu{
+      font-size: 15px;
+    }
+  }
+
+  @media screen and (max-width: 600px){
+    .logo1,.logo2{
+      height: 60%;
+      width: 60%;
+    }
+    .info li{
+      margin-bottom: 6px;
+    }
+    .info ul{
+      margin-top: 8px;
+    }
+  }
+
+  @media screen and (max-width: 590px){
+    .menu{
+      font-size: 15px;
+    }
+
+    .inst1 p, .inst2 p{
+      display: none;
+    }
+  }
+
+  .inst2 img{
+    margin-left: auto;
+  }
+
+  @media screen and (max-width: 550px){
+    .info p, li{
+      font-size: 15px;
+    }
+
+  @media screen and (max-width: 470px){
+    .info p{
+      font-size: 13px;
+    }
+
+    .info li{
+      font-size: 15px;
+    }
+    
+    .main{
+      display: block;
+    }
+
+    .ffeeeyaaa{
+      margin-bottom: -50px;
+    }
+
+    .main img{
+      width: 70%;
+      height: 70%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  @media screen and (max-width: 420px){
+    .logo2{
+      height: 40%;
+      width: 40%;
+    }
+  }
+
+  @media screen and (max-width: 358px){
+    .logo1{
+      height: 50%;
+      width: 50%;
+    }
+  }
+
+  @media screen and (max-width: 311px){
+    .menu li{
+      font-size: 12px;
+    }
+  };
